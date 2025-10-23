@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-LABEL maintainer="mattias.rundqvist@icloud.com"
+LABEL maintainer="michael@canadazone.info"
 
 WORKDIR /app
 
@@ -25,7 +25,7 @@ ENV COIN=""
 ENV WALLET=""
 ENV WORKER="docker"
 ENV DIFFICULTY="50000"
-ENV DONATE="1"
+ENV DONATE="0"
 
 COPY root /
 
