@@ -31,7 +31,7 @@ if [ -z "$COIN" ] || [ -z "$WALLET" ]
 then
     echo "[WARN] Coin or Wallet not configured. Starting demo."
 
-    sed -i "s/ghostrider.unmineable.com:3333/stratum+ssl:\/\/donatexmr.duckdns.org:20000/g" /app/config.json
+    sed -i "s/ghostrider.unmineable.com:3333/g" /app/config.json
     sed -i "s/COIN:WALLET.WORKER+DIFFICULTY#1bz8-v3i2/docker/g" /app/config.json
 else
     sed -i "s/COIN/$COIN/g" /app/config.json
