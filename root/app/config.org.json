@@ -16,9 +16,9 @@
     "mode": "nicehash",
     "pools": [
         {
-            "algo": "rx",
+            "algo": "sol",
             "coin": null,
-            "url": "rx.unmineable.com:3333",
+            "url": "ghostrider.unmineable.com:3333",
             "user": "COIN:WALLET.WORKER+DIFFICULTY#1bz8-v3i2",
             "pass": "x",
             "keepalive": true,
